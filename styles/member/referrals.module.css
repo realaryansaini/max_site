@@ -1,0 +1,107 @@
+.container{
+    display: flex;
+    /* background-color: #cbd1e9; */
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+
+.anchor{
+    text-decoration:none ;
+    color: inherit;
+}
+
+
+div.section2{
+    display: flex;
+    width: 78vw;
+    flex-direction: column;
+    /* background-color: green; */
+    margin-bottom: 50vh;
+    
+}
+
+
+
+/* referals */
+
+.card , .referrals_container{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.input_container input{
+    width: calc(100% - 20px);
+    border-radius: 5px;
+    border-width: .3px;
+    padding: 10px;
+    border-color: rgba(128, 128, 128, 0.322);
+    background-color: rgba(153, 153, 153, 0.11);
+    color: rgba(0, 0, 0, 0.733);
+}
+
+.my_refferals_title{
+    color: blue;
+    /* font-weight: 500; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.tables th{
+    /* border: .5px solid rgba(0, 0, 0, 0.274); */
+    background-color: rgba(0, 0, 255, 0.336);
+    color: #000000a3;
+    /* border-style: none; */
+}
+
+.tables table{
+    width: 100%;
+}
+
+.tables td{
+    text-align: center;
+    background-color: orange;
+}
+
+.tables{
+    /* background-color: red; */
+    margin-top: 20px;
+}
+
+.not_refered_anyone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.not_refered_anyone img{
+    width: 200px;
+}
+
+.not_refered_anyone span{
+    font-size: 1.2rem;
+    font-weight: 500;
+    opacity: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:900px) {
+    div.section2{
+      width: 100vw;
+    }
+  }

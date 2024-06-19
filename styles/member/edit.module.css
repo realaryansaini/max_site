@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    /* background-color: #cbd1e9; */
+}
+
+.anchor{
+    text-decoration:none ;
+    color: inherit;
+}
+
+
+
+
+
+
+/* section 2  */
+
+
+div.section2{
+    display: flex;
+    width: 78vw;
+    flex-direction: column;
+    /* background-color: green; */
+    margin-bottom: 50vh;
+    
+}
